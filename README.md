@@ -105,12 +105,13 @@ I lead engineering for AI-powered SaaS products, from architecture and delivery 
 
 | Project | What it shows | Tech |
 |---|---|---|
-| **[fastapi-production-starter](https://github.com/shijinb/fastapi-production-starter)** | Multi-tenant FastAPI service: JWT with refresh-token rotation and reuse detection, role-based access, tenant isolation, audit log, Alembic migrations, problem-details errors, JSON logs. 30 tests against real PostgreSQL; Docker stack smoke-tested in CI. | Python · FastAPI · PostgreSQL · Docker |
+| **[saas-admin-dashboard](https://github.com/shijinb/saas-admin-dashboard)** | Next.js 16 + TypeScript admin frontend for the FastAPI starter: httpOnly-cookie auth (backend-for-frontend), token refresh, filterable customer table, forms with server-side validation, audit log, responsive layout. 20 unit and 12 end-to-end tests against the real API. | TypeScript · Next.js · React · Tailwind · Playwright |
+| **[fastapi-production-starter](https://github.com/shijinb/fastapi-production-starter)** | Multi-tenant FastAPI service: JWT with refresh-token rotation and reuse detection, role-based access, tenant isolation, audit log, Alembic migrations, problem-details errors, JSON logs. 34 tests against real PostgreSQL; Docker stack smoke-tested in CI. | Python · FastAPI · PostgreSQL · Docker |
 | **[search-engine-indexing-toolkit](https://github.com/shijinb/search-engine-indexing-toolkit)** | Parses sitemaps safely, cleans URLs and notifies IndexNow, Bing and Google through their official APIs. Dry run by default, with retries, quotas and submission history. 63 tests, CI on Python 3.11–3.13. | Python · httpx · SQLite |
 | **[master-llm-humanization-guide](https://github.com/shijinb/master-llm-humanization-guide)** | Guide, prompt templates and scoring rubric for AI-assisted writing that is accurate and specific, plus `prose-check`, a tested editorial linter. Built from a production content pipeline. | Python · Markdown |
 | **[opencart-extension-collection](https://github.com/shijinb/opencart-extension-collection)** | 13 production OpenCart 3 extensions, reviewed and hardened: SQL-injection fixes, schema.org JSON-LD, stock reporting. Verified on 4 OpenCart releases with an OCMOD test harness and MySQL integration tests. | PHP · MySQL · Twig |
 
-**In progress:** SaaS admin dashboard (Next.js, built on the FastAPI starter) · resume parsing (Python and Laravel) · AI engineering playground · SaaS system design · AWS deployment lab
+**In progress:** resume parsing (Python and Laravel) · AI engineering playground · SaaS system design · AWS deployment lab
 
 ### Education
 
